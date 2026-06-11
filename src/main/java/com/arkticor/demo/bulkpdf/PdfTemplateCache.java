@@ -1,4 +1,4 @@
-package com.arkticor.demo.builkpdf;
+package com.arkticor.demo.bulkpdf;
 
 import jakarta.annotation.PostConstruct;
 import java.io.ByteArrayOutputStream;

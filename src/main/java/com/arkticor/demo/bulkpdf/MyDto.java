@@ -1,4 +1,4 @@
-package com.arkticor.demo.builkpdf;
+package com.arkticor.demo.bulkpdf;
 
 /** Demo stand-in for your real DTO; see README "Wire-up checklist". */
 public record MyDto(

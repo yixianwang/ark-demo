@@ -1,4 +1,4 @@
-package com.arkticor.demo.builkpdf;
+package com.arkticor.demo.bulkpdf;
 
 import java.io.IOException;
 import java.util.List;
@@ -26,7 +26,8 @@ public class PdfBatchController {
     this.repository = repository;
   }
 
-  // curl -X POST localhost:8080/api/pdf/batch -H 'Content-Type: application/json' -d '["1","2","3"]' -o batch.pdf
+  // curl -X POST localhost:8080/api/pdf/batch -H 'Content-Type: application/json' -d
+  // '["1","2","3"]' -o batch.pdf
   @PostMapping(value = "/api/pdf/batch", produces = MediaType.APPLICATION_PDF_VALUE)
   public ResponseEntity<StreamingResponseBody> downloadBatch(@RequestBody List<String> ids) {
 

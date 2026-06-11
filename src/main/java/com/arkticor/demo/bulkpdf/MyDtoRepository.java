@@ -1,4 +1,4 @@
-package com.arkticor.demo.builkpdf;
+package com.arkticor.demo.bulkpdf;
 
 import java.util.List;
 import org.springframework.stereotype.Repository;
