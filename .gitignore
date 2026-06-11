@@ -48,3 +48,6 @@ Thumbs.db
 ### General ###
 *.log
 *.tmp
+
+### Generated PDF output ###
+/batch.pdf
